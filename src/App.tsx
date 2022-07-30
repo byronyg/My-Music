@@ -1,12 +1,18 @@
 import React from "react";
 import "./App.css";
+import NavigationBar from "./components/NavigationBar";
+import TopBar from "./components/TopBar";
 
 function App() {
   return (
     <div className="wrapper">
-      <div className="left">navbar goes here</div>
+      <div className="left">
+        <NavigationBar />
+      </div>
       <div className="right">
-        <div className="topbar">topbar location here</div>
+        <div className="topbar">
+          <TopBar />
+        </div>
         <div className="artist">artist profile goes here</div>
         <div className="lower">
           <div className="genre">
