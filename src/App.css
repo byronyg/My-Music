@@ -39,18 +39,23 @@ width: 20vw;
   flex-direction: column;
 }
 .topartists {
-  background-color: crimson;
+  background-color: #18181d;
   height: 20vh;
   color: white;
 }
 .chartsalot {
+  background-color: #18181d;
   display: flex;
   flex-direction: row;
 }
 .genres {
-  background-color: salmon;
+  background-color: #18181d;
   height: 40vh;
   width: 25vw;
+}
+.topcharts {
+  display: flex;
+  align-items: center;
 }
 .player {
   background-color: blueviolet;

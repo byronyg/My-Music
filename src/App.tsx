@@ -1,7 +1,10 @@
 import React from "react";
 import "./App.css";
+import Genres from "./components/Genres";
 import NavigationBar from "./components/NavigationBar";
+import TopArtists from "./components/TopArtists";
 import TopBar from "./components/TopBar";
+import TopCharts from "./components/TopCharts";
 
 function App() {
   return (
@@ -16,10 +19,16 @@ function App() {
         <div className="artist">artist profile goes here</div>
         <div className="lower">
           <div className="genre">
-            <div className="topartists">top artists section</div>
+            <div className="topartists">
+              <TopArtists />
+            </div>
             <div className="chartsalot">
-              <div className="genres">genres hapa deh</div>
-              <div className="topcharts">top charts</div>
+              <div className="genres">
+                <Genres />
+              </div>
+              <div className="topcharts">
+                <TopCharts />
+              </div>
             </div>
           </div>
           <div className="player">player goes here</div>
