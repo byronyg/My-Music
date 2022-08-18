@@ -14,9 +14,9 @@ const topbar = () => {
   return (
     <Body>
       <div className="list">
-        <a href="">MUSIC</a>
-        <a href="">PODCAST</a>
-        <a href="">LIVE</a>
+        <a href="/#">MUSIC</a>
+        <a href="/#">PODCAST</a>
+        <a href="/#">LIVE</a>
       </div>
       <div className="search">
         <input type="search" name="Search" id="" />
